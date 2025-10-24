@@ -28,7 +28,8 @@ jobs:
         publisher_contact_details: Open public issues at https://github.com/ISDuBA or contact one of the recently active developers in confidence.
         source_csaf_documents: csaf_documents
         generate_index_files: true
-        openpgp_key: |
+        openpgp_use_signatures: true
+        openpgp_public_key: |
           -----BEGIN PGP PUBLIC KEY BLOCK-----
           
           mQGNBGj7dkwBDADffbLnN3FX1g2xRLI7UngOY/ecoTGgIrWjwZ/NX13SwpzNPrvC
