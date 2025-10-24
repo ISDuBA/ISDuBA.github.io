@@ -1,0 +1,129 @@
+{
+    "document": {
+        "category": "csaf_vex",
+        "csaf_version": "2.0",
+        "distribution": {
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/v1/"
+            }
+        },
+        "lang": "en",
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "See contact points at https://github.com/ISDuBA",
+            "name": "Isduba Development Community",
+            "namespace": "https://github.com/ISDuBA"
+        },
+        "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",
+        "tracking": {
+            "current_release_date": "2025-10-02T17:35:00.000Z",
+            "id": "isduba-2025-01",
+            "initial_release_date": "2025-10-02T17:35:00.000Z",
+            "revision_history": [
+                {
+                    "date": "2025-10-02T17:35:00.000Z",
+                    "number": "1.0.0",
+                    "summary": "Initial revision"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version_range",
+                                "name": "vers:all/*",
+                                "product": {
+                                    "name": "ISDuBA all versions",
+                                    "product_id": "isduba-all-versions"
+                                }
+                            }
+                        ],
+                        "category": "product_name",
+                        "name": "ISDuBA"
+                    }
+                ],
+                "category": "vendor",
+                "name": "Isduba Development Community"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-20333",
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "Cisco Secure Firewall Adaptive Security Appliance Software and Secure Firewall Threat Defense Software VPN Web Server Remote Code Execution Vulnerability"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            },
+            "threats": [
+                {
+                    "category": "impact",
+                    "details": "Vulnerable component not present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-20362",
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "Cisco Secure Firewall Adaptive Security Appliance Software and Secure Firewall Threat Defense Software VPN Web Server Unauthorized Access Vulnerability"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            },
+            "threats": [
+                {
+                    "category": "impact",
+                    "details": "Vulnerable component not present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-20363",
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            },
+            "threats": [
+                {
+                    "category": "impact",
+                    "details": "Vulnerable component not present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ]
+        }
+    ]
+}

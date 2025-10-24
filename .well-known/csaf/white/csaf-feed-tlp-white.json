@@ -1,0 +1,57 @@
+{
+  "feed": {
+    "id": "csaf-feed-tlp-white",
+    "title": "CSAF feed (TLP:WHITE)",
+    "link": [
+      {
+        "rel": "self",
+        "href": "https://isduba.github.io/.well-known/csaf/white/csaf-feed-tlp-white.json"
+      },
+      {
+        "rel": "service",
+        "href": "https://isduba.github.io/.well-known/csaf/service.json"
+      }
+    ],
+    "category": [
+      {
+        "scheme": "urn:ietf:params:rolie:category:information-type",
+        "term": "csaf"
+      }
+    ],
+    "updated": "2025-10-24T13:45:44Z",
+    "entry": [
+      {
+        "id": "isduba-2025-01",
+        "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.asc"
+          }
+        ],
+        "published": "2025-10-02T17:35:00Z",
+        "updated": "2025-10-02T17:35:00Z",
+        "content": {
+          "type": "application/json",
+          "src": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "canonical_url": "https://isduba.github.io/.well-known/csaf/provider-metadata.json",
+  "distributions": [
+    {
+      "rolie": {
+        "feeds": [
+          {
+            "summary": "TLP:WHITE advisories",
+            "tlp_label": "WHITE",
+            "url": "https://isduba.github.io/.well-known/csaf/white/csaf-feed-tlp-white.json"
+          },
+          {
+            "summary": "TLP:GREEN advisories",
+            "tlp_label": "GREEN",
+            "url": "https://isduba.github.io/.well-known/csaf/green/csaf-feed-tlp-green.json"
+          },
+          {
+            "summary": "TLP:AMBER advisories",
+            "tlp_label": "AMBER",
+            "url": "https://isduba.github.io/.well-known/csaf/amber/csaf-feed-tlp-amber.json"
+          },
+          {
+            "summary": "TLP:RED advisories",
+            "tlp_label": "RED",
+            "url": "https://isduba.github.io/.well-known/csaf/red/csaf-feed-tlp-red.json"
+          }
+        ]
+      }
+    },
+    {
+      "directory_url": "https://isduba.github.io/.well-known/csaf/white"
+    },
+    {
+      "directory_url": "https://isduba.github.io/.well-known/csaf/green"
+    },
+    {
+      "directory_url": "https://isduba.github.io/.well-known/csaf/amber"
+    },
+    {
+      "directory_url": "https://isduba.github.io/.well-known/csaf/red"
+    }
+  ],
+  "last_updated": "2025-10-24T13:45:29Z",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": true,
+  "public_openpgp_keys": [
+    {
+      "fingerprint": "A25FE0F175896BFA636F1A051DE645B1926835DD",
+      "url": "https://isduba.github.io/.well-known/csaf/openpgp/A25FE0F175896BFA636F1A051DE645B1926835DD.asc"
+    }
+  ],
+  "publisher": {
+    "category": "vendor",
+    "name": "Isduba Development Community",
+    "namespace": "https://github.com/ISDuBA",
+    "contact_details": "Open public issues at https://github.com/ISDuBA or contact one of the recently active developers in confidence.",
+    "issuing_authority": "Developers of the Free Software ISDuBA"
+  },
+  "role": "csaf_trusted_provider"
+}
