@@ -12,12 +12,19 @@
         "publisher": {
             "category": "vendor",
             "contact_details": "See contact points at https://github.com/ISDuBA",
-            "name": "Isduba Development Community",
+            "name": "ISDuBA Dev team",
             "namespace": "https://github.com/ISDuBA"
         },
+        "references": [
+            {
+                "category": "self",
+                "summary": "ISDuBA-2025-01",
+                "url": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
+            }
+        ],
         "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",
         "tracking": {
-            "current_release_date": "2025-10-02T17:35:00.000Z",
+            "current_release_date": "2025-12-12T15:08:00.000Z",
             "id": "isduba-2025-01",
             "initial_release_date": "2025-10-02T17:35:00.000Z",
             "revision_history": [
@@ -25,10 +32,15 @@
                     "date": "2025-10-02T17:35:00.000Z",
                     "number": "1.0.0",
                     "summary": "Initial revision"
+                },
+                {
+                    "date": "2025-12-12T15:08:00.000Z",
+                    "number": "1.1.0",
+                    "summary": "Improve structure:\n a) move from notes->summary to description\n b) move from threats->impact to flags->component_not_present\n c) Add document reference self."
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "1.1.0"
         }
     },
     "product_tree": {
@@ -58,72 +70,70 @@
     "vulnerabilities": [
         {
             "cve": "CVE-2025-20333",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
             "notes": [
                 {
-                    "category": "summary",
-                    "text": "Cisco Secure Firewall Adaptive Security Appliance Software and Secure Firewall Threat Defense Software VPN Web Server Remote Code Execution Vulnerability"
+                    "category": "description",
+                    "text": "A vulnerability in the VPN web server of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an authenticated, remote attacker to execute arbitrary code on an affected device.\nThis vulnerability is due to improper validation of user-supplied input in HTTP(S) requests. An attacker with valid VPN user credentials could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code as root, possibly resulting in the complete compromise of the affected device.",
+                    "title": "CVE description"
                 }
             ],
             "product_status": {
                 "known_not_affected": [
                     "isduba-all-versions"
                 ]
-            },
-            "threats": [
-                {
-                    "category": "impact",
-                    "details": "Vulnerable component not present",
-                    "product_ids": [
-                        "isduba-all-versions"
-                    ]
-                }
-            ]
+            }
         },
         {
             "cve": "CVE-2025-20362",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
             "notes": [
                 {
-                    "category": "summary",
-                    "text": "Cisco Secure Firewall Adaptive Security Appliance Software and Secure Firewall Threat Defense Software VPN Web Server Unauthorized Access Vulnerability"
+                    "category": "description",
+                    "text": "A vulnerability in the VPN web server of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to access restricted URL endpoints that are related to remote access VPN that should otherwise be inaccessible without authentication.\nThis vulnerability is due to improper validation of user-supplied input in HTTP(S) requests. An attacker could exploit this vulnerability by sending crafted HTTP requests to a targeted web server on a device. A successful exploit could allow the attacker to access a restricted URL without authentication"
                 }
             ],
             "product_status": {
                 "known_not_affected": [
                     "isduba-all-versions"
                 ]
-            },
-            "threats": [
-                {
-                    "category": "impact",
-                    "details": "Vulnerable component not present",
-                    "product_ids": [
-                        "isduba-all-versions"
-                    ]
-                }
-            ]
+            }
         },
         {
             "cve": "CVE-2025-20363",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
             "notes": [
                 {
-                    "category": "summary",
-                    "text": "Cisco Secure Firewall Adaptive Security Appliance Software, Secure Firewall Threat Defense Software, IOS Software, IOS XE Software, and IOS XR Software Web Services Remote Code Execution Vulnerability"
+                    "category": "description",
+                    "text": "A vulnerability in the web services of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software, Cisco Secure Firewall Threat Defense (FTD) Software, Cisco IOS Software, Cisco IOS XE Software, and Cisco IOS XR Software could allow an unauthenticated, remote attacker (Cisco ASA and FTD Software) or authenticated, remote attacker (Cisco IOS, IOS XE, and IOS XR Software) with low user privileges to execute arbitrary code on an affected device.\nThis vulnerability is due to improper validation of user-supplied input in HTTP requests. An attacker could exploit this vulnerability by sending crafted HTTP requests to a targeted web service on an affected device after obtaining additional information about the system, overcoming exploit mitigations, or both. A successful exploit could allow the attacker to execute arbitrary code as root, which may lead to the complete compromise of the affected device."
                 }
             ],
             "product_status": {
                 "known_not_affected": [
                     "isduba-all-versions"
                 ]
-            },
-            "threats": [
-                {
-                    "category": "impact",
-                    "details": "Vulnerable component not present",
-                    "product_ids": [
-                        "isduba-all-versions"
-                    ]
-                }
-            ]
+            }
         }
     ]
 }
