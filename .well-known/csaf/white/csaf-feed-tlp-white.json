@@ -18,8 +18,40 @@
         "term": "csaf"
       }
     ],
-    "updated": "2025-12-12T16:13:32Z",
+    "updated": "2025-12-12T16:27:59Z",
     "entry": [
+      {
+        "id": "isduba-2025-02",
+        "title": "does not integrate React Server Components",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.asc"
+          }
+        ],
+        "published": "2025-12-12T16:20:00Z",
+        "updated": "2025-12-12T16:20:00Z",
+        "content": {
+          "type": "application/json",
+          "src": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      },
       {
         "id": "isduba-2025-01",
         "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",

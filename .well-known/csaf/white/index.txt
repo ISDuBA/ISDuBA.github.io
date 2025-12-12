@@ -1,1 +1,2 @@
 2025/isduba-2025-01.json
+2025/isduba-2025-02.json
