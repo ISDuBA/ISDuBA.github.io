@@ -1,0 +1,113 @@
+{
+    "document": {
+        "category": "csaf_vex",
+        "csaf_version": "2.0",
+        "distribution": {
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/v1/"
+            }
+        },
+        "lang": "en",
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "See contact points at https://github.com/ISDuBA",
+            "name": "ISDuBA Dev team",
+            "namespace": "https://github.com/ISDuBA"
+        },
+        "references": [
+            {
+                "category": "self",
+                "summary": "ISDuBA-2025-02",
+                "url": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
+            }
+        ],
+        "title": "does not integrate React Server Components",
+        "tracking": {
+            "current_release_date": "2025-12-12T16:20:00.000Z",
+            "id": "isduba-2025-02",
+            "initial_release_date": "2025-12-12T16:20:00.000Z",
+            "revision_history": [
+                {
+                    "date": "2025-12-12T16:20:00.000Z",
+                    "number": "1.0.0",
+                    "summary": "Initial revision"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version_range",
+                                "name": "vers:all/*",
+                                "product": {
+                                    "name": "ISDuBA all versions",
+                                    "product_id": "isduba-all-versions"
+                                }
+                            }
+                        ],
+                        "category": "product_name",
+                        "name": "ISDuBA"
+                    }
+                ],
+                "category": "vendor",
+                "name": "Isduba Development Community"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-55182",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "category": "description",
+                    "text": "Critical Security Vulnerability in React Server Components\n[..] that allows unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints.\nEven if your app does not implement any React Server Function endpoints it may still be vulnerable if your app supports React Server Components.",
+                    "title": "CVE description"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            }
+        },
+        {
+            "cve": "CVE-2025-66478",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "category": "description",
+                    "text": "A critical vulnerability has been identified in the React Server Components (RSC) protocol. The issue is rated CVSS 10.0 and can allow remote code execution when processing attacker-controlled requests in unpatched environments.\nThis vulnerability originates in the upstream React implementation (CVE-2025-55182). This advisory (CVE-2025-66478) tracks the downstream impact on Next.js applications using the App Router.",
+                    "title": "CVE description"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            }
+        }
+    ]
+}
