@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - 'csaf_documents/**.json'
+      - 'csaf_documents/**.asc'
   workflow_dispatch:
 
 permissions:
