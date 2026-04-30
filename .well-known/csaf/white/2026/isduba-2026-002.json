@@ -1,0 +1,90 @@
+{
+    "document": {
+        "category": "csaf_vex",
+        "csaf_version": "2.0",
+        "distribution": {
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/v1/"
+            }
+        },
+        "lang": "en",
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "See contact points at https://github.com/ISDuBA",
+            "name": "ISDuBA Dev team",
+            "namespace": "https://github.com/ISDuBA"
+        },
+        "references": [
+            {
+                "category": "self",
+                "summary": "ISDuBA-2026-002",
+                "url": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-002.json"
+            }
+        ],
+        "title": "does not integrate any of cPanel, WebHost Manager (WHM) or WP Squared (WP2)",
+        "tracking": {
+            "current_release_date": "2026-04-30T11:04:00Z",
+            "id": "isduba-2026-002",
+            "initial_release_date": "2026-04-30T11:04:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-04-30T11:04:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial revision"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version_range",
+                                "name": "vers:all/*",
+                                "product": {
+                                    "name": "ISDuBA all versions",
+                                    "product_id": "isduba-all-versions"
+                                }
+                            }
+                        ],
+                        "category": "product_name",
+                        "name": "ISDuBA"
+                    }
+                ],
+                "category": "vendor",
+                "name": "Isduba Development Community"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2026-41940",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "category": "description",
+                    "text": "An authentication bypass security issue has been identified in the cPanel software (including DNSOnly)",
+                    "title": "CVE description"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            }
+        }
+    ]
+}
