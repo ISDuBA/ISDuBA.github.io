@@ -16,7 +16,7 @@
       "directory_url": "https://isduba.github.io/.well-known/csaf/white"
     }
   ],
-  "last_updated": "2026-07-16T09:38:00Z",
+  "last_updated": "2026-07-16T09:56:47Z",
   "list_on_CSAF_aggregators": true,
   "metadata_version": "2.0",
   "mirror_on_CSAF_aggregators": true,
@@ -28,7 +28,7 @@
   ],
   "publisher": {
     "category": "vendor",
-    "name": "ISDuBA Development Community",
+    "name": "Isduba Development Community",
     "namespace": "https://github.com/ISDuBA",
     "contact_details": "Open public issues at https://github.com/ISDuBA or contact one of the recently active developers in confidence.",
     "issuing_authority": "Developers of the Free Software ISDuBA"

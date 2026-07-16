@@ -12,7 +12,7 @@
         "publisher": {
             "category": "vendor",
             "contact_details": "See contact points at https://github.com/ISDuBA",
-            "name": "ISDuBA Dev team",
+            "name": "ISDuBA Development Community",
             "namespace": "https://github.com/ISDuBA"
         },
         "references": [
@@ -24,7 +24,7 @@
         ],
         "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",
         "tracking": {
-            "current_release_date": "2025-12-12T15:08:00.000Z",
+            "current_release_date": "2026-07-16T09:10:00Z",
             "id": "isduba-2025-01",
             "initial_release_date": "2025-10-02T17:35:00.000Z",
             "revision_history": [
@@ -37,10 +37,15 @@
                     "date": "2025-12-12T15:08:00.000Z",
                     "number": "1.1.0",
                     "summary": "Improve structure:\n a) move from notes->summary to description\n b) move from threats->impact to flags->component_not_present\n c) Add document reference self."
+                },
+                {
+                    "date": "2026-07-16T09:10:00Z",
+                    "number": "2.0.0",
+                    "summary": "Unify publisher and vendor name to `ISDuBA Development Community`."
                 }
             ],
             "status": "final",
-            "version": "1.1.0"
+            "version": "2.0.0"
         }
     },
     "product_tree": {
@@ -63,7 +68,7 @@
                     }
                 ],
                 "category": "vendor",
-                "name": "Isduba Development Community"
+                "name": "ISDuBA Development Community"
             }
         ]
     },

@@ -12,7 +12,7 @@
         "publisher": {
             "category": "vendor",
             "contact_details": "See contact points at https://github.com/ISDuBA",
-            "name": "ISDuBA Dev team",
+            "name": "ISDuBA Development Community",
             "namespace": "https://github.com/ISDuBA"
         },
         "references": [
@@ -24,7 +24,7 @@
         ],
         "title": "does not integrate any of cPanel, WebHost Manager (WHM) or WP Squared (WP2)",
         "tracking": {
-            "current_release_date": "2026-04-30T11:04:00Z",
+            "current_release_date": "2026-07-16T09:10:00Z",
             "id": "isduba-2026-002",
             "initial_release_date": "2026-04-30T11:04:00Z",
             "revision_history": [
@@ -32,10 +32,15 @@
                     "date": "2026-04-30T11:04:00Z",
                     "number": "1.0.0",
                     "summary": "Initial revision"
+                },
+                {
+                    "date": "2026-07-16T09:10:00Z",
+                    "number": "2.0.0",
+                    "summary": "Unify publisher and vendor name to `ISDuBA Development Community`."
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "2.0.0"
         }
     },
     "product_tree": {
@@ -58,7 +63,7 @@
                     }
                 ],
                 "category": "vendor",
-                "name": "Isduba Development Community"
+                "name": "ISDuBA Development Community"
             }
         ]
     },

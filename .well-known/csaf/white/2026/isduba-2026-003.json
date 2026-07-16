@@ -18,29 +18,24 @@
         "references": [
             {
                 "category": "self",
-                "summary": "ISDuBA-2025-02",
-                "url": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
+                "summary": "ISDuBA-2026-003",
+                "url": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-003.json"
             }
         ],
-        "title": "does not integrate React Server Components",
+        "title": "does not integrate SonicWall SMA1000 products",
         "tracking": {
-            "current_release_date": "2026-07-16T09:10:00Z",
-            "id": "isduba-2025-02",
-            "initial_release_date": "2025-12-12T16:20:00.000Z",
+            "current_release_date": "2026-07-16T10:00:00Z",
+            "id": "isduba-2026-003",
+            "initial_release_date": "2026-07-16T10:00:00Z",
             "revision_history": [
                 {
-                    "date": "2025-12-12T16:20:00.000Z",
+                    "date": "2026-07-16T10:00:00Z",
                     "number": "1.0.0",
                     "summary": "Initial revision"
-                },
-                {
-                    "date": "2026-07-16T09:10:00Z",
-                    "number": "2.0.0",
-                    "summary": "Unify publisher and vendor name to `ISDuBA Development Community`."
                 }
             ],
             "status": "final",
-            "version": "2.0.0"
+            "version": "1.0.0"
         }
     },
     "product_tree": {
@@ -69,7 +64,7 @@
     },
     "vulnerabilities": [
         {
-            "cve": "CVE-2025-55182",
+            "cve": "CVE-2026-15409",
             "flags": [
                 {
                     "label": "component_not_present",
@@ -81,7 +76,7 @@
             "notes": [
                 {
                     "category": "description",
-                    "text": "Critical Security Vulnerability in React Server Components\n[..] that allows unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints.\nEven if your app does not implement any React Server Function endpoints it may still be vulnerable if your app supports React Server Components.",
+                    "text": "A Server-side request forgery (SSRF) vulnerability has been identified in the SMA1000 Appliance Work Place interface. A remote unauthenticated attacker could potentially cause the appliance to make requests to unintended location.",
                     "title": "CVE description"
                 }
             ],
@@ -89,10 +84,11 @@
                 "known_not_affected": [
                     "isduba-all-versions"
                 ]
-            }
+            },
+            "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability"
         },
         {
-            "cve": "CVE-2025-66478",
+            "cve": "CVE-2026-15410",
             "flags": [
                 {
                     "label": "component_not_present",
@@ -104,7 +100,7 @@
             "notes": [
                 {
                     "category": "description",
-                    "text": "A critical vulnerability has been identified in the React Server Components (RSC) protocol. The issue is rated CVSS 10.0 and can allow remote code execution when processing attacker-controlled requests in unpatched environments.\nThis vulnerability originates in the upstream React implementation (CVE-2025-55182). This advisory (CVE-2025-66478) tracks the downstream impact on Next.js applications using the App Router.",
+                    "text": "Post-authentication improper control of generation of code ('Code Injection') vulnerability has been identified in the SMA1000 Appliance Management Console (AMC) which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands. ",
                     "title": "CVE description"
                 }
             ],
@@ -112,7 +108,8 @@
                 "known_not_affected": [
                     "isduba-all-versions"
                 ]
-            }
+            },
+            "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability"
         }
     ]
 }
