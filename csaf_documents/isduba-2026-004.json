@@ -1,0 +1,115 @@
+{
+    "document": {
+        "category": "csaf_vex",
+        "csaf_version": "2.0",
+        "distribution": {
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/v1/"
+            }
+        },
+        "lang": "en",
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "See contact points at https://github.com/ISDuBA",
+            "name": "ISDuBA Development Community",
+            "namespace": "https://github.com/ISDuBA"
+        },
+        "references": [
+            {
+                "category": "self",
+                "summary": "ISDuBA-2026-004",
+                "url": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-004.json"
+            }
+        ],
+        "title": "does not integrate WordPress",
+        "tracking": {
+            "current_release_date": "2026-07-21T13:00:00Z",
+            "id": "isduba-2026-004",
+            "initial_release_date": "2026-07-21T13:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-07-21T13:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial revision"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version_range",
+                                "name": "vers:all/*",
+                                "product": {
+                                    "name": "ISDuBA all versions",
+                                    "product_id": "isduba-all-versions"
+                                }
+                            }
+                        ],
+                        "category": "product_name",
+                        "name": "ISDuBA"
+                    }
+                ],
+                "category": "vendor",
+                "name": "ISDuBA Development Community"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2026-60137",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "category": "description",
+                    "text": "WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.",
+                    "title": "CVE description"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            },
+            "title": "WordPress versions 6.8 and higher are vulnerable to an SQL injection issue."
+        },
+        {
+            "cve": "CVE-2026-63030",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "category": "description",
+                    "text": "WordPress 6.9.x before 6.9.5 and 7.0.x before 7.0.2 is affected by a REST API batch endpoint route confusion issue which, combined with the author__not_in WP_Query SQL Injection (CVE-2026-60137), could allow an attacker to perform SQL Injection and achieve Remote Code Execution",
+                    "title": "CVE description"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            },
+            "title": "SQL injection issue leading to Remote Code Execution"
+        }
+    ]
+}
