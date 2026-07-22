@@ -18,8 +18,40 @@
         "term": "csaf"
       }
     ],
-    "updated": "2026-07-16T09:57:00Z",
+    "updated": "2026-07-22T11:00:11Z",
     "entry": [
+      {
+        "content": {
+          "type": "application/json",
+          "src": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-004.json"
+        },
+        "id": "isduba-2026-004",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-004.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-004.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-004.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-004.json.asc"
+          }
+        ],
+        "published": "2026-07-21T13:00:00Z",
+        "title": "does not integrate WordPress",
+        "updated": "2026-07-21T13:00:00Z",
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      },
       {
         "content": {
           "type": "application/json",
@@ -87,29 +119,29 @@
       {
         "content": {
           "type": "application/json",
-          "src": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json"
+          "src": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
         },
-        "id": "isduba-2026-001",
+        "id": "isduba-2025-01",
         "link": [
           {
             "rel": "self",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
           },
           {
             "rel": "hash",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json.sha256"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.sha256"
           },
           {
             "rel": "hash",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json.sha512"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.sha512"
           },
           {
             "rel": "signature",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json.asc"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.asc"
           }
         ],
-        "published": "2026-02-12T14:42:00Z",
-        "title": "does not integrate Ivanti Endpoint Manager Mobile (EPMM)",
+        "published": "2025-10-02T17:35:00Z",
+        "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",
         "updated": "2026-07-16T09:10:00Z",
         "format": {
           "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
@@ -151,29 +183,29 @@
       {
         "content": {
           "type": "application/json",
-          "src": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
+          "src": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json"
         },
-        "id": "isduba-2025-01",
+        "id": "isduba-2026-001",
         "link": [
           {
             "rel": "self",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json"
           },
           {
             "rel": "hash",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.sha256"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json.sha256"
           },
           {
             "rel": "hash",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.sha512"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json.sha512"
           },
           {
             "rel": "signature",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-01.json.asc"
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-001.json.asc"
           }
         ],
-        "published": "2025-10-02T17:35:00Z",
-        "title": "does not integrate Cisco Secure Firewall Adaptive Security Appliance Software",
+        "published": "2026-02-12T14:42:00Z",
+        "title": "does not integrate Ivanti Endpoint Manager Mobile (EPMM)",
         "updated": "2026-07-16T09:10:00Z",
         "format": {
           "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
