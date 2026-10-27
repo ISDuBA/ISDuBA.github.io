@@ -18,8 +18,72 @@
         "term": "csaf"
       }
     ],
-    "updated": "2026-09-29T13:38:59Z",
+    "updated": "2026-10-27T12:14:31Z",
     "entry": [
+      {
+        "content": {
+          "type": "application/json",
+          "src": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-009.json"
+        },
+        "id": "isduba-2026-009",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-009.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-009.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-009.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-009.json.asc"
+          }
+        ],
+        "published": "2026-10-27T13:00:00Z",
+        "title": "does not integrate or use PHP",
+        "updated": "2026-10-27T13:00:00Z",
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      },
+      {
+        "content": {
+          "type": "application/json",
+          "src": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-008.json"
+        },
+        "id": "isduba-2026-008",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-008.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-008.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-008.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-008.json.asc"
+          }
+        ],
+        "published": "2026-10-27T11:30:00Z",
+        "title": "does not integrate BeyondTrust",
+        "updated": "2026-10-27T11:30:00Z",
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      },
       {
         "content": {
           "type": "application/json",
@@ -215,38 +279,6 @@
       {
         "content": {
           "type": "application/json",
-          "src": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
-        },
-        "id": "isduba-2025-02",
-        "link": [
-          {
-            "rel": "self",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
-          },
-          {
-            "rel": "hash",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.sha256"
-          },
-          {
-            "rel": "hash",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.sha512"
-          },
-          {
-            "rel": "signature",
-            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.asc"
-          }
-        ],
-        "published": "2025-12-12T16:20:00Z",
-        "title": "does not integrate React Server Components",
-        "updated": "2026-07-16T09:10:00Z",
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        }
-      },
-      {
-        "content": {
-          "type": "application/json",
           "src": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-002.json"
         },
         "id": "isduba-2026-002",
@@ -270,6 +302,38 @@
         ],
         "published": "2026-04-30T11:04:00Z",
         "title": "does not integrate any of cPanel, WebHost Manager (WHM) or WP Squared (WP2)",
+        "updated": "2026-07-16T09:10:00Z",
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      },
+      {
+        "content": {
+          "type": "application/json",
+          "src": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
+        },
+        "id": "isduba-2025-02",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://isduba.github.io/.well-known/csaf/white/2025/isduba-2025-02.json.asc"
+          }
+        ],
+        "published": "2025-12-12T16:20:00Z",
+        "title": "does not integrate React Server Components",
         "updated": "2026-07-16T09:10:00Z",
         "format": {
           "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",

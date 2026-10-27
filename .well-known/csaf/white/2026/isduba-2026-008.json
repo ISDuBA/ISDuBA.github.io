@@ -1,0 +1,91 @@
+{
+    "document": {
+        "category": "csaf_vex",
+        "csaf_version": "2.0",
+        "distribution": {
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/v1/"
+            }
+        },
+        "lang": "en",
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "See contact points at https://github.com/ISDuBA",
+            "name": "ISDuBA Development Community",
+            "namespace": "https://github.com/ISDuBA"
+        },
+        "references": [
+            {
+                "category": "self",
+                "summary": "ISDuBA-2026-008",
+                "url": "https://isduba.github.io/.well-known/csaf/white/2026/isduba-2026-008.json"
+            }
+        ],
+        "title": "does not integrate BeyondTrust",
+        "tracking": {
+            "current_release_date": "2026-10-27T11:30:00Z",
+            "id": "isduba-2026-008",
+            "initial_release_date": "2026-10-27T11:30:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-10-27T11:30:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial revision"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version_range",
+                                "name": "vers:all/*",
+                                "product": {
+                                    "name": "ISDuBA all versions",
+                                    "product_id": "isduba-all-versions"
+                                }
+                            }
+                        ],
+                        "category": "product_name",
+                        "name": "ISDuBA"
+                    }
+                ],
+                "category": "vendor",
+                "name": "ISDuBA Development Community"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2026-102764",
+            "flags": [
+                {
+                    "label": "component_not_present",
+                    "product_ids": [
+                        "isduba-all-versions"
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "category": "description",
+                    "text": "The vulnerability exists within internal components of BeyondTrust’s Remote Support product. The components did not adequately validate the origin of the messages it received. Under the right conditions, this could allow an attacker to perform file operations on the appliance.",
+                    "title": "CVE description"
+                }
+            ],
+            "product_status": {
+                "known_not_affected": [
+                    "isduba-all-versions"
+                ]
+            },
+            "title": "Improper Origin Validation in Internal Messaging Components of BeyondTrust Remote Support"
+        }
+    ]
+}
